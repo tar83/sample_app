@@ -18,6 +18,8 @@ gem 'jbuilder', '2.11.2'
 gem 'bootsnap', '1.9.1', require: false
 
 group :development, :test do
+  gem 'sorbet', '~> 0.5.9222'
+  gem 'sorbet-runtime', '~> 0.5.9222'
   gem 'sqlite3', '1.4.2'
   gem 'byebug', '11.1.3', platforms: [:mri, :mingw, :x64_mingw]
 end
